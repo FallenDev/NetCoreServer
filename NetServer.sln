@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetServer", "source\NetCoreServer\NetServer.csproj", "{F338BFE3-6C55-4BB7-960D-0B2A81A011C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetServer", "source\NetServer\NetServer.csproj", "{F338BFE3-6C55-4BB7-960D-0B2A81A011C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{7535CE12-3B22-4473-890A-980B72E5D27A}"
 EndProject

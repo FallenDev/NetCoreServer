@@ -2,14 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <Version>8.0.7.0</Version>
+    <Version>1.1.2</Version>
     <Authors>Ivan Shynkarenka, Paul Buck</Authors>
     <Copyright>Copyright (c) 2019-2025 Ivan Shynkarenka</Copyright>
-    <RepositoryUrl>https://github.com/chronoxor/NetCoreServer</RepositoryUrl>
-    <Description>C# .NET library with support TCP, SSL, UDP protocols and 10K connections problem solution</Description>
+    <RepositoryUrl>https://github.com/FallenDev/NetServer</RepositoryUrl>
+    <Description>C# .NET library with support of TCP, SSL, UDP protocols</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/chronoxor/NetCoreServer</PackageProjectUrl>
-    <PackageTags>async;client;server;tcp;udp;ssl;tls;low latency;performance</PackageTags>
+    <PackageTags>async;client;server;tcp;udp;ssl;low latency;performance</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup>
