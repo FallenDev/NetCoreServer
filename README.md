@@ -1,10 +1,11 @@
 # NetServer
 
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![.NET)](https://github.com/FallenDev/NetServer/actions/workflows/dotnet.yml/badge.svg)](https://github.com/FallenDev/NetServer/actions/workflows/dotnet.yml)
 <br/>
-[![Linux](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-linux.yml/badge.svg)](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-linux.yml)
-[![MacOS](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-macos.yml/badge.svg)](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-macos.yml)
-[![Windows (Visual Studio)](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-windows.yml/badge.svg)](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-windows.yml)
+[![Windows](https://github.com/FallenDev/NetServer/actions/workflows/build-windows.yml/badge.svg)](https://github.com/FallenDev/NetServer/actions/workflows/build-windows.yml) 
+[![Linux](https://github.com/FallenDev/NetServer/actions/workflows/build-linux.yml/badge.svg)](https://github.com/FallenDev/NetServer/actions/workflows/build-linux.yml) 
+[![MacOS](https://github.com/FallenDev/NetServer/actions/workflows/build-macos.yml/badge.svg)](https://github.com/FallenDev/NetServer/actions/workflows/build-macos.yml) 
+
 
 This is a reduced version of NetCoreServer utilizing C#13's capabilities. It retains NetCoreServer's known fast and low latency async server / client logic, with support for TCP, SSL, UDP protocols. The reason I decided to reduce and optimize this already well built library, was due to wanting a library I can stick into Unity or Godot that is easy to manage and use. There are a lot of libraries out there that try to solve a problem by using proprietairy methods and classes. This is simple and uses pure .NET logic. Since this is written in .NET 9, it should still be compatible with Linux and Mac; However I'm not providing support for this library. 
 
