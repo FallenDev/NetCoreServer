@@ -1,22 +1,18 @@
-# NetCoreServer
+# NetServer
 
-[![Awesome .NET](https://awesome.re/badge.svg)](https://github.com/quozd/awesome-dotnet)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Release](https://img.shields.io/github/release/chronoxor/NetCoreServer.svg?sort=semver)](https://github.com/chronoxor/NetCoreServer/releases)
-[![NuGet](https://img.shields.io/nuget/v/NetCoreServer)](https://www.nuget.org/packages/NetCoreServer)
 <br/>
 [![Linux](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-linux.yml/badge.svg)](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-linux.yml)
 [![MacOS](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-macos.yml/badge.svg)](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-macos.yml)
 [![Windows (Visual Studio)](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-windows.yml/badge.svg)](https://github.com/chronoxor/NetCoreServer/actions/workflows/build-windows.yml)
 
 Ultra fast and low latency asynchronous socket server & client C# .NET Core
-library with support TCP, SSL, UDP, Unix Domain Socket, HTTP, HTTPS, WebSocket protocols and [10K connections problem](https://en.wikipedia.org/wiki/C10k_problem)
+library with support TCP, SSL, UDP protocols and [10K connections problem](https://en.wikipedia.org/wiki/C10k_problem)
 solution.
 
 Has integration with high-level message protocol based on [Fast Binary Encoding](https://github.com/chronoxor/FastBinaryEncoding)
 
-[NetCoreServer documentation](https://chronoxor.github.io/NetCoreServer)<br/>
-[NetCoreServer downloads](https://github.com/chronoxor/NetCoreServer/releases)<br/>
+[NetServer documentation](https://chronoxor.github.io/NetCoreServer)<br/>
 
 # Contents
   * [Features](#features)
@@ -31,38 +27,9 @@ Has integration with high-level message protocol based on [Fast Binary Encoding]
     * [Example: UDP echo client](#example-udp-echo-client)
     * [Example: UDP multicast server](#example-udp-multicast-server)
     * [Example: UDP multicast client](#example-udp-multicast-client)
-    * [Example: Unix Domain Socket chat server](#example-unix-domain-socket-chat-server)
-    * [Example: Unix Domain Socket chat client](#example-unix-domain-socket-chat-client)
     * [Example: Simple protocol](#example-simple-protocol)
     * [Example: Simple protocol server](#example-simple-protocol-server)
     * [Example: Simple protocol client](#example-simple-protocol-client)
-    * [Example: HTTP server](#example-http-server)
-    * [Example: HTTP client](#example-http-client)
-    * [Example: HTTPS server](#example-https-server)
-    * [Example: HTTPS client](#example-https-client)
-    * [Example: WebSocket chat server](#example-websocket-chat-server)
-    * [Example: WebSocket chat client](#example-websocket-chat-client)
-    * [Example: WebSocket secure chat server](#example-websocket-secure-chat-server)
-    * [Example: WebSocket secure chat client](#example-websocket-secure-chat-client)
-  * [Performance](#performance)
-    * [Benchmark: Round-Trip](#benchmark-round-trip)
-      * [TCP echo server](#tcp-echo-server)
-      * [SSL echo server](#ssl-echo-server)
-      * [UDP echo server](#udp-echo-server)
-      * [Unix Domain Socket echo server](#unix-domain-socket-echo-server)
-      * [Simple protocol server](#simple-protocol-server)
-      * [WebSocket echo server](#websocket-echo-server)
-      * [WebSocket secure echo server](#websocket-secure-echo-server)
-    * [Benchmark: Multicast](#benchmark-multicast)
-      * [TCP multicast server](#tcp-multicast-server)
-      * [SSL multicast server](#ssl-multicast-server)
-      * [UDP multicast server](#udp-multicast-server)
-      * [Unix Domain Socket multicast server](#unix-domain-socket-multicast-server)
-      * [WebSocket multicast server](#websocket-multicast-server)
-      * [WebSocket secure multicast server](#websocket-secure-multicast-server)
-    * [Benchmark: Web Server](#benchmark-web-server)
-      * [HTTP Trace server](#http-trace-server)
-      * [HTTPS Trace server](#https-trace-server)
   * [OpenSSL certificates](#openssl-certificates)
     * [Production](#production)
     * [Development](#development)
@@ -75,10 +42,7 @@ Has integration with high-level message protocol based on [Fast Binary Encoding]
 * Cross platform (Linux, MacOS, Windows)
 * Asynchronous communication
 * Supported transport protocols: [TCP](#example-tcp-chat-server), [SSL](#example-ssl-chat-server),
-  [UDP](#example-udp-echo-server), [UDP multicast](#example-udp-multicast-server),
-  [Unix Domain Socket](#example-unix-domain-socket-chat-server)
-* Supported Web protocols: [HTTP](#example-http-server), [HTTPS](#example-https-server),
-  [WebSocket](#example-websocket-chat-server), [WebSocket secure](#example-websocket-secure-chat-server)
+  [UDP](#example-udp-echo-server), [UDP multicast](#example-udp-multicast-server)
 * Supported [Swagger OpenAPI](https://swagger.io/specification/) iterative documentation
 * Supported message protocol based on [Fast Binary Encoding](https://github.com/chronoxor/FastBinaryEncoding)
 
@@ -86,10 +50,7 @@ Has integration with high-level message protocol based on [Fast Binary Encoding]
 * Linux
 * MacOS
 * Windows
-* [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
-* [7-Zip](https://www.7-zip.org)
-* [cmake](https://www.cmake.org)
-* [git](https://git-scm.com)
+* [.NET 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
 * [Visual Studio](https://www.visualstudio.com)
 
 Optional:
