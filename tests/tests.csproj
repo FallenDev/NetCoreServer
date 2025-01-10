@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\proto\proto.csproj" />
     <ProjectReference Include="..\source\NetCoreServer\NetCoreServer.csproj" />
   </ItemGroup>
 
