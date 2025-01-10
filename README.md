@@ -9,7 +9,7 @@
 
 This is a reduced version of [NetCoreServer](https://github.com/chronoxor/NetCoreServer) utilizing C#13's capabilities. It retains NetCoreServer's known fast and low latency async server / client logic, with support for TCP, SSL, UDP protocols. The reason I decided to reduce and optimize this already well built library, was due to wanting a library I can stick into Unity or Godot that is easy to manage and use. There are a lot of libraries out there that try to solve a problem by using proprietairy methods and classes. This is simple and uses pure .NET logic. Since this is written in .NET 9, it should still be compatible with Linux and Mac; However I'm not providing support for this library. 
 
-Please see the Wiki above for examples, Enjoy :)
+Please see the [Wiki](https://github.com/FallenDev/NetServer/wiki/Examples) above for examples, Enjoy :)
 
 Solves the [10K connections problem](https://en.wikipedia.org/wiki/C10k_problem)
 
